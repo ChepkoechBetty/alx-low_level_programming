@@ -1,8 +1,19 @@
 #include <stdio.h>
-
-
-
-int main(void) {
+/**
+ *
+ *  * main - Entry point
+ *
+ *   * 
+ *
+ *    * Description: 'the program's description'
+ *
+ *     * 
+ *
+ *      * Return: Always 0 (Success)
+ *
+ *       */
+int main(void) 
+{
        	int a; long int b; long long int c; char d; float f;
 
 
