@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
+/**
  * main - prints unique  possible combinations of two two-digits
+ *
  * Return: alway 0
  */
 int main(void)
@@ -25,16 +26,16 @@ int main(void)
 						putchar(' ');
 						putchar(d3 + '0');
 						putchar(d4 + '0');
-						if (!((e1 == 98) && (e2 == 99))
-								{
-								putchar(',');
-								putchar(' ');
-								}
-								}
-								}
-								}
-								}
-								}
-								putchar('\n');
-								return (0);
-								}
+						if (!((e1 == 98) && (e2 == 99)))
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}

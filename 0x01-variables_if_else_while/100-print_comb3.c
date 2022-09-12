@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints out all the numbers
  * between 0 and 99 with non-repeating
  * digits.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)

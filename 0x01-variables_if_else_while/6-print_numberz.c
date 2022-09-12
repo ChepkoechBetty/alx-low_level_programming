@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints out all the numbers
  * from 0 to 9, with putchar
+ *
  * Return: Always 0 (Success)
  */
 int main(void)

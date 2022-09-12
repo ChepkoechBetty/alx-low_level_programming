@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints out all the letters
  * from 0 - 9 and a - f.
+ *
  * Return: Always 0 (Success)
 */
 int main(void)
