@@ -16,7 +16,7 @@ void times_table(void)
 		for (m = 0; m <= 9; m++)
 		{
 			r = start * m;
-			write(1, r, 1);
+			printf("%d, ", r);
 		}
 	}
 }
