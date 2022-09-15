@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _islower - Check for lower case character
- * c:Paremeter
+ * @c:Paremeter
  *
  * Return: Always (1) success (0) failure
  */
