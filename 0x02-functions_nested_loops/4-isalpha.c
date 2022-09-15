@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * _isalpha - Check for alphabets
  * @c:Parameter
