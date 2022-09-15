@@ -11,6 +11,5 @@ int _abs(int)
 	int a;
 
 	a = abs(x);
-	write(1, "a", 1);
-	return (0);
+	return (a);
 }
