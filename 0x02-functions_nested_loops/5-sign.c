@@ -20,7 +20,6 @@ int print_sign(int n)
 	}
 	else
 	{
-		write(1, "-1", 2);
-		return (-1);
+                return (-1);
 	}
 }
