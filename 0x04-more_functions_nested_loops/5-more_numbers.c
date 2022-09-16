@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * more_numbers - more numbers
  */
@@ -17,6 +18,6 @@ void more_numbers(void)
 			}
 			_putchar(i % 10 + '0');
 		}
-		putchar('\n');
+	        _putchar('\n');
 	}
 }
