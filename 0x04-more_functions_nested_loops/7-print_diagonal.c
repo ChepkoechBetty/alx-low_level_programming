@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_diagonal - print diagonal line
  * @n:Parameter
@@ -7,7 +8,7 @@ void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
@@ -15,8 +16,8 @@ void print_diagonal(int n)
 
 		while (i <= n)
 		{
-			putchar('\\');
-			putchar('\n');
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
 }
