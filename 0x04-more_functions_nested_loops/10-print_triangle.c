@@ -13,10 +13,15 @@ void print_triangle(int size)
 	else
 	{
 		int x = 1;
+		int j = 1;
 
 		while (x <= size)
 		{
-			_putchar('#');
+			while (j <= x)
+			{
+				_putchar('#');
+				_putchar('\n');
+			}
 		}
 	}
 }
