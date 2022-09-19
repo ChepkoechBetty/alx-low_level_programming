@@ -16,11 +16,11 @@ void rev_string(char *s)
 	{
 		if (strlen(r) > 0)
 		{
-			r = r[strlen(r) - 1] + s[i];
+			r[strlen(r)] = s[i];
 		}
 		else
 		{
-			r = s[i];
+			r[0] = s[i];
 		}
 	}
 	s = r;
