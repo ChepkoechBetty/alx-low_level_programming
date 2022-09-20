@@ -11,7 +11,7 @@
  */
 int _atoi(char *s)
 {
-	int *is = atoi(s);
+	int is = atoi(s);
 
-	Return(is);
+	return(is);
 }
