@@ -16,8 +16,8 @@ int main(void)
 	while (sum <= 2645)
 	{
 		d = rand() % 128;
-		sum += c;
-		putchar(c);
+		sum += d;
+		putchar(d);
 	}
 	putchar(2772 - sum);
 
