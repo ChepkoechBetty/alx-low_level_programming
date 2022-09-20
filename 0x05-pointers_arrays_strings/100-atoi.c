@@ -10,7 +10,7 @@
  */
 int _atoi(char *s)
 {
-	int *s = atoi(s);
+	int *is = atoi(s);
 
 	Return(0);
 }
