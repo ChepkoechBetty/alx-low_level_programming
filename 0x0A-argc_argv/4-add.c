@@ -2,7 +2,13 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include "main.h"
-
+/**
+ * main - main method
+ * @argc:parameter
+ * @argv:parameter
+ *
+ * Return:always 0
+ */
 int main(int argc, char *argv[])
 {
 	int i, j, sum;
