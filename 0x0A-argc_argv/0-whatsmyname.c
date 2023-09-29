@@ -24,3 +24,4 @@ int main(int argc, char *argv[])
 	print_name(argv[0]);
 	return (0);
 }
+
